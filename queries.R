@@ -43,6 +43,8 @@ mean(spanish$Percentage)
 x <- (spanish$Percentage)
 y <- (spanish$CountryCode)
 
+x
+
 SP <- DataDB %>% filter(Language == "Spanish")
 SP.df <- as.data.frame(SP) 
 
