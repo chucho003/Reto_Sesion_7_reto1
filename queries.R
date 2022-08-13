@@ -51,3 +51,9 @@ SP.df <- as.data.frame(SP)
 SP.df %>% ggplot(aes( x = CountryCode, y=Percentage, fill = IsOfficial )) + 
   geom_bin2d() +
   coord_flip()
+
+
+
+spanish %>% ggplot(aes( x = CountryCode, y=Percentage, fill = IsOfficial )) + 
+geom_bar(stat="identity")
+
